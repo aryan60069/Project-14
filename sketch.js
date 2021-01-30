@@ -95,7 +95,7 @@ function draw() {
   
   drawSprites();
   textSize(20);
-  fill("red");
+  fill("yellow");
   text("Treasure: "+ treasureCollection,150,30);
 
 }
