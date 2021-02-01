@@ -96,7 +96,7 @@ function draw() {
   drawSprites();
   textSize(20);
   fill("yellow");
-  text("Treasure: "+ treasureCollection,150,30);
+  text("Treasure: "+ treasureCollection,width/2-30,30);
 
 }
 
@@ -106,7 +106,7 @@ function createCash() {
   cash.addImage(cashImg);
   cash.scale=0.12;
   cash.velocityY = 3;
-  cash.lifetime = 200;
+  cash.lifetime = 300;
   cashG.add(cash);
   }
 }
@@ -117,7 +117,7 @@ function createDiamonds() {
   diamonds.addImage(diamondsImg);
   diamonds.scale=0.03;
   diamonds.velocityY = 3;
-  diamonds.lifetime = 200;
+  diamonds.lifetime = 300;
   diamondsG.add(diamonds);
 }
 }
@@ -128,7 +128,7 @@ function createJwellery() {
   jwellery.addImage(jwelleryImg);
   jwellery.scale=0.13;
   jwellery.velocityY = 3;
-  jwellery.lifetime = 200;
+  jwellery.lifetime = 300;
   jwelleryG.add(jwellery);
   }
 }
@@ -139,7 +139,7 @@ function createSword(){
   sword.addImage(swordImg);
   sword.scale=0.1;
   sword.velocityY = 3;
-  sword.lifetime = 200;
+  sword.lifetime = 300;
   swordGroup.add(sword);
   }
 }
